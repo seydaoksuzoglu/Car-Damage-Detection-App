@@ -11,7 +11,7 @@ from PIL import Image # Resmi işlemek için
 
 
 # Flask uygulamasını başlat
-app = Flask(__name__, template_folder='apps/apps/templates', static_folder='static/static/uploads')
+app = Flask(__name__, template_folder='apps/templates', static_folder='static/uploads')
 
 # YOLO modelini yükle
 model = YOLO('best.pt')
@@ -28,7 +28,7 @@ def index():
 
         if file:  # Dosya yüklendiyse
             filename = secure_filename(file.filename)
-            filepath = os.path.join('static/static/uploads', filename)
+            filepath = os.path.join('static/uploads', filename)
             file.save(filepath)
         elif url:  # URL girildiyse
             try:
@@ -53,7 +53,7 @@ def index():
 
                 # Dosya adını ayarla
                 filename = secure_filename(f"downloaded_image.{extension}")
-                filepath = os.path.join('static/static/uploads', filename)
+                filepath = os.path.join('static/uploads', filename)
 
                 # Resmi dosya olarak kaydet
                 image = Image.open(BytesIO(response.content))
@@ -84,7 +84,7 @@ def index():
 
             # Yeni dosya kaydet
             output_filename = f"output_{filename}"
-            output_filepath = os.path.join('static/static/uploads', output_filename)
+            output_filepath = os.path.join('uploads', output_filename)
             cv2.imwrite(output_filepath, image)
 
             # Doğruluk değerlerini yüzde formatında ve iki ondalık basamakla göster
