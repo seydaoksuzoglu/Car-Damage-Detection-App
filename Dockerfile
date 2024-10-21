@@ -1,5 +1,5 @@
 # Python 3.10 slim imajını kullan
-FROM python:3.10.12
+FROM python:3.10-slim
 
 # Sistem kütüphanelerini yükleyin
 RUN apt-get update && \
