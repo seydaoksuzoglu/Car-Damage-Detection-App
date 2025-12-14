@@ -12,14 +12,15 @@ The goal was to build a SaaS MVP (Minimum Viable Product) that can help insuranc
 
 * Cloud-Ready Architecture: Designed and initially deployed on AWS for scalability.
 
-* Custom Dataset: Trained on a curated dataset labeled via Roboflow to ensure model robustness.![WhatsApp Image 2025-12-14 at 21 27 21](https://github.com/user-attachments/assets/b3bb58cb-7e3e-4f2b-9732-6cacc4eca7d0)
-
+* Custom Dataset: Trained on a curated dataset labeled via Roboflow to ensure model robustness.
 
 ## 📸 Screenshots & Demo
 (Since the AWS instance is currently paused for cost optimization, here are snapshots from the working prototype.)
 
 ## Detection Result
-![Uploading WhatsApp Image 2025-12-14 at 21.27.21.jpeg…]()
+<div align="center">
+  <img src="assets/assets/b3bb58cb-7e3e-4f2b-9732-6cacc4eca7d0.png" width="500">
+</div>
 
 ## 🛠️ Tech Stack & Pipeline
 This project follows a complete MLOps pipeline from data collection to deployment:
