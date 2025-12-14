@@ -36,5 +36,7 @@ As a product-focused engineer, I have planned the following iterations:
 
 ## 📬 Contact
 Şeyda Öksüzoğlu
+
 LinkedIn: www.linkedin.com/in/şeyda-öksüzoğlu-666b90302
+
 Email: seydaoksuzoglu01@gmail.com
