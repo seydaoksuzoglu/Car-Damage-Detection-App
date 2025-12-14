@@ -22,15 +22,20 @@ The goal was to build a SaaS MVP (Minimum Viable Product) that can help insuranc
 
 ## 🛠️ Tech Stack & Pipeline
 This project follows a complete MLOps pipeline from data collection to deployment:
-1.**Data Curation**: Images were collected and labeled using Roboflow.
+
+1.**Data Curation**: Images were collected and labeled using Roboflow. 
+
 2. **Model Training**: Fine-tuned YOLOv8 (You Only Look Once) model for object detection.
+
 3. **Backend**: Developed a RESTful API using Flask to serve the model.
+   
 4. **Frontend**: HTML/CSS/JS interface for user interaction.
+   
 5. **Deployment**: Containerized and deployed on AWS (EC2).
 
 ## 🗺️ Roadmap (Future Improvements)
 As a product-focused engineer, I have planned the following iterations:
-* [ ] Cost Estimation: Integrate an algorithm to estimate repair costs based on detected damage size.
+* [ ] [ ] Cost Estimation: Integrate an algorithm to estimate repair costs based on detected damage size.
 * [ ] [ ] Mobile Integration: Develop a mobile-first version for on-site inspections.
 * [ ] [ ] Report Generation: Auto-generate PDF reports for insurance claims.
 
