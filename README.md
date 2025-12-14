@@ -19,7 +19,7 @@ The goal was to build a SaaS MVP (Minimum Viable Product) that can help insuranc
 
 ## Detection Result
 <div align="center">
-  <img src="assets/assets/b3bb58cb-7e3e-4f2b-9732-6cacc4eca7d0.png" width="500">
+  <img src="![WhatsApp Image 2025-12-14 at 21 27 21](https://github.com/user-attachments/assets/ba5d0e92-58e3-4cba-8641-257e90dd9b0e)" width="500">
 </div>
 
 ## 🛠️ Tech Stack & Pipeline
