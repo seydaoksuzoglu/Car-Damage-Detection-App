@@ -18,7 +18,7 @@ The goal was to build a SaaS MVP (Minimum Viable Product) that can help insuranc
 (Since the AWS instance is currently paused for cost optimization, here are snapshots from the working prototype.)
 
 ## Detection Result
-<img src="https://github.com/user-attachments/assets/4dcc7126-3bb6-47a9-b77c-51027a18e103" width="500">
+<img src="https://github.com/user-attachments/assets/4dcc7126-3bb6-47a9-b77c-51027a18e103" width="%30">
 
 ## 🛠️ Tech Stack & Pipeline
 This project follows a complete MLOps pipeline from data collection to deployment:
