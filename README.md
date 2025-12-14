@@ -23,7 +23,7 @@ The goal was to build a SaaS MVP (Minimum Viable Product) that can help insuranc
 ## 🛠️ Tech Stack & Pipeline
 This project follows a complete MLOps pipeline from data collection to deployment:
 
-1.**Data Curation**: Images were collected and labeled using Roboflow. 
+1. **Data Curation**: Images were collected and labeled using Roboflow. 
 
 2. **Model Training**: Fine-tuned YOLOv8 (You Only Look Once) model for object detection.
 
