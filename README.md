@@ -1,7 +1,7 @@
 # 🚗 Car Damage Detection SaaS (MVP)
 
 ## 🔍 Overview
-This project is an end-to-end AI solution designed to automate the vehicle inspection process. By leveraging Computer Vision (YOLOv8), the application detects and classifies vehicle damages (e.g., scratches, dents, glass shatter) from images or video streams.
+This project is an end-to-end AI solution designed to automate the vehicle inspection process. By leveraging Computer Vision (YOLOv8), the application detects and classifies vehicle damages (e.g., scratches, dents, glass breaks, car damages) from images or video streams.
 
 The goal was to build a SaaS MVP (Minimum Viable Product) that can help insurance companies and car rental agencies reduce manual inspection time and ensure consistent damage reporting.
 
